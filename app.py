@@ -15,8 +15,8 @@ def index():
 
     # TODO: Get the first 10 results from the search results
 
-    # TODO: Render the 'index.html' template, passing the gifs as a parameter
-    
+    # TODO: Render the 'index.html' template, passing the gifs as a named parameter
+
     return render_template("index.html")
 
 if __name__ == '__main__':
